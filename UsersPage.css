@@ -1,0 +1,60 @@
+.usersPage {
+  max-width: 400px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  background-color: burlywood;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.user-list {
+  height: 350px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.user-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 8px 0;
+}
+
+.user-item b {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}

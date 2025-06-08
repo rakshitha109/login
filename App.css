@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: "image.png";
+  background-color: white;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  from {background-color: skyblue;}
+  to {background-color: white;}
+}
